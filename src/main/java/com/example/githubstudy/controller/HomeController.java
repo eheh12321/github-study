@@ -9,6 +9,7 @@ public class HomeController {
     @GetMapping
     public String index() {
         System.out.println("Feat/1 기능 추가");
+        System.out.println("Feat/1 기능 추가 2");
         return "To-do Application!";
     }
 }
